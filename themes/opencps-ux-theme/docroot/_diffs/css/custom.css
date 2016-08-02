@@ -1,6 +1,5 @@
 /* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
 
-@import url(font_face.css);
 @import url(controls.css);
 @import url(support.css);
 @import url(font-awesome.min.css);
@@ -20,15 +19,14 @@
 
 @import url(button-custom.css);
 
+@import url(alpacajs.css);
+@import url(alpacajs-icon.css);
 /*end*/
 
 /*----anh huong*/
 @import url(portlets/portlet_13_fileinfo.css);
 /*end*/
 
-
-@import url(custom_frame_1.css);
-@import url(header_style_1.css);
 
 
 @import url(input.css);
@@ -149,37 +147,6 @@
 
 .opencps-theme.ux .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li > a{
 	padding: 10px 15px;
-}
-
-
-.alpaca-array-actionbar-action.btn {
-	background-color: #ccc !important;
-	height: 20px !important;
-	width: 30px !important;
-	display: inline-block;
-	padding: 6px 12px;
-	margin-bottom: 0;
-	font-size: 14px;
-	font-weight: normal;
-	line-height: 1.42857143;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	-ms-touch-action: manipulation;
-	touch-action: manipulation;
-	cursor: pointer;
-	-webkit-user-select: none;
-	   -moz-user-select: none;
-	    -ms-user-select: none;
-	        user-select: none;
-	background-image: none;
-	border: 1px solid transparent;
-	border-radius: 4px;
-}
-
-.alpaca-field-table td {
-    border-left: 1px solid #ccc !important;
-     border-right: 1px solid #ccc !important;
 }
 
 .opencps-theme.ux button[data-toggle="dropdown"]{
