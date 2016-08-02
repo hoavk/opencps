@@ -31,6 +31,7 @@
 
 @import url(input.css);
 @import url(nav_toolbar.css);
+@import url(searchcontainer.css);
 
 
 /* custom css theme ngoai cung*/
@@ -53,6 +54,9 @@
 	float: right;
 }
 
+.opencps-theme.ux body{
+	font-family: roboto;
+}
 
 /* Overwrite page iterator css */
 
