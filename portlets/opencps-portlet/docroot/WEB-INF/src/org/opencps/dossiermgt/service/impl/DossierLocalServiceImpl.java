@@ -744,6 +744,10 @@ public class DossierLocalServiceImpl extends DossierLocalServiceBaseImpl {
 		return dossierPersistence.findByG_DS(
 			groupId, dossierStatus, start, end, obc);
 	}
+	
+	public List<Dossier> getDossierByStatus(long groupId, String dossierStatus) throws SystemException {
+		return dossierPersistence.filterFindByG_DS(groupId, dossierStatus);
+	}
 
 	/**
 	 * @param groupId
@@ -1935,4 +1939,14 @@ public class DossierLocalServiceImpl extends DossierLocalServiceBaseImpl {
 
 		dossierPersistence.update(dossier);
 	}
+	
+	/**
+	 * @param serviceinfoId
+	 * @return
+	 * @throws SystemException
+	 */
+	public List<Dossier> getDossiersByServiceInfo(long serviceinfoId) throws SystemException {
+		return dossierPersistence.findByServiceInfoId(serviceinfoId);
+	}
+	
 }
