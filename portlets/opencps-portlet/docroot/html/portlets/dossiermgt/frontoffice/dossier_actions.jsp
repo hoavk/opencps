@@ -136,7 +136,7 @@
 				</portlet:actionURL> 
 				<liferay-ui:icon-delete 
 					image="undo"
-					cssClass="search-container-action undo"
+					cssClass="search-container-action fa undo"
 					confirmation="are-you-sure-cancel-entry" 
 					message="cancel"  
 					url="<%=cancelDossierURL.toString() %>" 
