@@ -271,3 +271,8 @@ portlets/opencps-portlet/docroot/WEB-INF/src/org/opencps/api/service/persistence
 portlets/opencps-portlet/docroot/WEB-INF/src/org/opencps/api/model/impl/ApiServiceImpl.java
 portlets/opencps-portlet/docroot/WEB-INF/src/org/opencps/api/model/impl/
 themes/opencps-ux-theme/docroot/WEB-INF/liferay-look-and-feel.xml
+themes/opencps-ux-theme/docroot/WEB-INF/liferay-look-and-feel.xml
+themes/opencps-ux-theme/docroot/_diffs/templates/init_custom.vm
+themes/opencps-ux-theme/docroot/_diffs/templates/portal_normal.vm
+themes/opencps-ux-theme/docroot/_diffs/css/custom.css
+
