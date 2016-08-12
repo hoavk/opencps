@@ -275,4 +275,4 @@ themes/opencps-ux-theme/docroot/WEB-INF/liferay-look-and-feel.xml
 themes/opencps-ux-theme/docroot/_diffs/templates/init_custom.vm
 themes/opencps-ux-theme/docroot/_diffs/templates/portal_normal.vm
 themes/opencps-ux-theme/docroot/_diffs/css/custom.css
-
+themes/opencps-ux-theme/.settings/

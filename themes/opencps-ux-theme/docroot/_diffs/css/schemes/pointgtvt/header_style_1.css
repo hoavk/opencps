@@ -1,0 +1,83 @@
+/*---------- Header ----------*/
+.opencps-theme header.mHeader_1 {
+	height: 70px;
+	position: fixed;
+	width: 100%;
+	background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/bg_header.png) 0 center repeat;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 9999;
+}
+.opencps-theme header.mHeader_1 .logo {
+	background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/logo.png) center center no-repeat;
+	width: 287px;
+	height: 50px;
+	margin: 0 auto 0 20px;
+}
+.opencps-theme header.mHeader_1 > div {
+	margin: 0 25px 0 auto;
+}
+.opencps-theme header.mHeader_1 .btn-dn {
+	width: 150px;
+	height: 36px;
+	background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/bg_dangnhap.png) center center no-repeat;
+	color: white !important;
+	border: 0;
+	text-indent: -20px;
+	text-transform: uppercase;
+	margin: 0 25px 0 0;
+	text-align: center;
+	line-height: 36px;
+	display: inline-block;
+	font-family: 'Roboto-Bold';
+}
+.opencps-theme header.mHeader_1 .btn-dk {
+	width: 140px;
+	height: 36px;
+	background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/bg_dangky.png) center center no-repeat;
+	color: white !important;
+	border: 0;
+	text-indent: -20px;
+	text-transform: uppercase;
+	margin-left: 0;
+	text-align: center;
+	line-height: 36px;
+	display: inline-block;
+	font-family: 'Roboto-Bold';
+}
+
+/*---------- Menu ----------*/
+.opencps-theme nav {
+	color: white;
+	margin-bottom: 0 !important;
+	overflow: hidden;
+	font-weight: bold;
+	height: 34px;
+	width: 695px;
+	text-transform: uppercase;
+	font-family: 'Roboto-Bold';
+}
+.opencps-theme nav ul {
+	margin: 0;
+}
+.opencps-theme nav ul > li {
+	float: left;
+}
+.opencps-theme nav ul > li ul {
+	display: none;
+}
+.opencps-theme nav ul > li > a {
+	line-height: 34px;
+	padding: 6px 20px;
+	color: #fff;
+}
+.opencps-theme nav ul > li > a img {
+	display: none;
+}
+/* .opencps-theme nav ul > li.selected > a,  */.opencps-theme nav ul > li:hover > a {
+	color: #0675cc !important;
+}
+.opencps-theme.ux.home_bg #column-1 .portlet-borderless-container{
+  background: transparent !important;
+}

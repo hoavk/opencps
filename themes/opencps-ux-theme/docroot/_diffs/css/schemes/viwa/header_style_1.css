@@ -1,0 +1,124 @@
+/*---------- Header ----------*/
+.opencps-theme header.mHeader_1 {
+	height: 116px;
+	border-bottom: 1px solid #f58220;
+	position: relative;
+}
+.opencps-theme header.mHeader_1 .header {
+	height: 113px;
+}
+.opencps-theme header.mHeader_1 .header .logo {
+	background: url(/opencps-ux-theme/css/../images/schemes/viwa/frame_1/logo_3.png) center center no-repeat;
+	width: 566px;
+	height: 84px;
+	margin-top: 35px;
+}
+
+.opencps-theme header .top-menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 19px;
+	background: url(/opencps-ux-theme/css/../images/schemes/viwa/frame_1/bg_menu_top_sm.png) 0 center repeat;
+}
+.opencps-theme header .top-menu > div {
+	position: relative;
+	width: 1170px;
+	height: 19px;
+	margin: auto;
+}
+.opencps-theme header .top-menu div.centerUL {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 19px;
+	background: url(/opencps-ux-theme/css/../images/schemes/viwa/frame_1/bg_menu_top_big.png) 0 center repeat;
+	border-radius: 0 0 5px 5px;
+	margin: auto;
+	padding-top: 19px;
+}
+.opencps-theme header .top-menu ul {
+	margin: auto;
+	display: inline-block;
+}
+.opencps-theme header .top-menu ul li {
+	float: left;
+	border-right: 1px solid #2b7bc8;
+	color: #2b7bc8;
+	font-family: 'Roboto-Bold';
+	line-height: 14px;
+}
+.opencps-theme header .top-menu ul li:last-child {
+	border-right: 0;
+}
+.opencps-theme header .top-menu ul li a {
+	padding: 0 12px;
+	font-family: 'Roboto-Bold';
+}
+.opencps-theme header .top-menu ul li a.home:before {
+	content: "Trang chủ";
+}
+.opencps-theme header .top-menu ul li a.about:before {
+	content: "Giới thiệu";
+}
+.opencps-theme header .top-menu ul li a.qa:before {
+	content: "Hỏi - Đáp";
+}
+.opencps-theme header .top-menu ul li a.contact:before {
+	content: "Liên hệ";
+}
+
+/*---------- Menu ----------*/
+.opencps-theme nav {
+	height: auto;
+	background-image: url(/opencps-ux-theme/css/../images/schemes/viwa/frame_1/bg_menu.png);
+	color: white;
+	font-family: 'Roboto-Bold';
+	margin-bottom: 0 !important;
+	font-size: 16px;
+	overflow: hidden;
+}
+.opencps-theme nav ul {
+	width: 1170px;
+	margin: auto;
+	height: auto;
+	overflow: hidden;
+}
+.opencps-theme nav ul > li {
+	float: left;
+}
+.opencps-theme nav ul > li ul {
+	display: none;
+}
+.opencps-theme nav ul > li > a {
+	line-height: 43px;
+	padding: 13px 30px;
+	color: white;
+}
+.opencps-theme nav ul > li > a img {
+	display: none;
+}
+.opencps-theme nav ul > li.selected > a, .opencps-theme nav ul > li:hover > a {
+	background-color: #f58220;
+	color: white;
+	text-decoration: none;
+}
+.opencps-theme.ux nav .logout{
+      color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 15px 0px 0px;
+}
+.opencps-theme.ux nav .logout a{
+      color: rgb(255, 255, 255);
+}
+.opencps-theme.ux nav .logout a:before {
+    content: "\f08b";
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+.opencps-theme.ux.home_bg #column-1 .portlet-borderless-container{
+  background: transparent !important;
+}

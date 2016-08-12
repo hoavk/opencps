@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html class="$root_css_class" dir="#language ("lang.dir")" lang="$w3c_language_id">
+
+<head>
+	<title>$the_title - $company_name</title>
+
+	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+	<meta charset="utf-8" />
+
+	$theme.include($top_head_include)
+	
+	<link rel="shortcut icon" type="image/png" href="$images_folder/custom/favicon.png"/>
+	
+	#css("$css_folder/$theme_style")
+	<script type="text/javascript" src="$javascript_folder/bootstrap.js" ></script>
+</head>
+
+<body class="$css_class opencps-theme ux">
+
+	$theme.include($body_top_include)
+	
+	#if ($is_signed_in && $permissionChecker.isOmniadmin())
+		#dockbar()
+	#end
+	
+#*	#if(!$is_signed_in)	*#
+		<header id="banner" role="banner" class="mHeader_1">
+			<div class="top-menu">
+				<div>
+					<div class="centerUL">
+						#if ($has_navigation || $is_signed_in)
+							#parse ("$full_templates_path/navigation_public_page.vm")
+						#end
+					</div>
+				</div>					
+			</div>
+			<div class="header container align-middle">
+	            <a href="" class="logo"></a>
+			</div>
+		</header>
+		
+		#if ($has_navigation || $is_signed_in)
+			#parse ("$full_templates_path/navigation_private_page.vm")
+		#end
+#*	#else 
+		<header id="banner" role="banner" class="mHeader_2">
+			<div class="header container align-middle">
+	            <a href="" class="logo"></a>
+	            <div class="hotline">
+	                #language ("hotline-key")<br/><span>1900 0311</span>
+	            </div>
+	            <div class="log-out">
+					<span>#language ("welcome-key") $user_name</span>
+					<a href="$sign_out_url" class="btn-dn">#language ("logout-key")</a>
+				</div>
+			</div>
+		
+			#if ($has_navigation || $is_signed_in)
+				#parse ("$full_templates_path/navigation_public_page.vm")
+			#end
+		</header>
+		
+		#if ($has_navigation || $is_signed_in)
+			#parse ("$full_templates_path/navigation_private_page.vm")
+		#end
+	#end	*#
+	
+	<article id="wrapper" class="container">	
+		<div id="content">
+			#*<nav id="breadcrumbs">#breadcrumbs()</nav>*#
+	
+			#if ($selectable)
+				$theme.include($content_include)
+			#else
+				$portletDisplay.recycle()
+	
+				$portletDisplay.setTitle($the_title)
+	
+				$theme.wrapPortlet("portlet.vm", $content_include)
+			#end
+		</div>
+	</article>
+	
+	<footer>
+		<div class="footer">
+			<div class="logo"></div>
+			<div>
+	            <p class="copyright"></p>
+	            <p class="address"></p>
+	            <p class="phone"></p>
+	            <p class="fax"></p>
+	            <p class="email"></p>
+	        </div>
+        </div>
+	</footer>
+
+
+	$theme.include($body_bottom_include)
+	
+	$theme.include($bottom_include)
+
+</body>
+
+</html>

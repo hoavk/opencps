@@ -1,0 +1,475 @@
+
+body.opencps-theme {font-size: 14px; font-family: 'Roboto-Regular';}
+
+
+
+.dockbar-messages .header {height: auto !important}
+body.opencps-theme > div > .payment.payment_search.search_tools .navbar-inner {background: white !important}
+
+
+ 
+/*---------- Footer ----------*/
+footer {
+	height: 212px;
+	background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/bg_footer.png) 0 center repeat;
+	padding-top: 60px;
+	bottom: 0;
+	width: 100%;
+	padding-left: 300px;
+	position: absolute;
+}
+footer > div {
+	color: #292929;
+}
+footer > p {
+	position: absolute;
+	bottom: 0;
+	right: 25px;
+	bottom: 10px;
+}
+footer > p:before {
+	content: "Copyright © 2016 - Bộ Giao thông Vận tải";
+	color: #0074cd;
+}
+footer > div {float: left}
+footer > div > p.title {font-size: 15px; font-weight: bold; text-transform: uppercase; color: #0074cd; position: relative; padding: 5px 0; margin-bottom: 15px}
+footer > div > p.title:after {content: ""; position: absolute; width: 40px; height: 2px; background-color: #0074cd; left: 5px; top: 35px;}
+.opencps-theme footer > div > ul {margin: 0;}
+.opencps-theme footer > div > ul li {padding: 5px 0; line-height: normal;}
+footer .danhmuc {margin: 0 75px 0 auto}
+footer .huongdan {margin: 0 80px 0 0}
+footer .lienhehotro {margin: 0 100px 0 0}
+footer .lienhehotro .diachi {padding-left: 25px; background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/icon_diachi.png) 2px 2px no-repeat}
+footer .lienhehotro .mail {padding-left: 25px; background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/icon_email.png) 0 center no-repeat}
+footer .lienhehotro .phone {padding-left: 25px; background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/icon_phone.png) 0 center no-repeat}
+
+
+/*---------- Main ----------*/
+.opencps-theme.home_bg article {padding: 75px 0 !important}
+
+.opencps-theme #wrapper {background: none transparent; padding: 0; width: auto; min-height: 900px;}
+
+.content {clear: both}
+
+/*--- Home ---*/
+body.opencps-theme.home_bg {
+	position: relative !important;
+	width: auto;
+	background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/bg_home.jpg) no-repeat scroll center 0;
+	background-size: cover;
+	min-height: 900px;
+}
+.opencps-theme #wrapper #main-content {
+	padding: 0;
+}
+
+/* Search bar */
+.opencps-theme.home_bg .portlet-boundary_19_WAR_opencpsportlet_ .portlet-body {
+	position: relative;
+	margin-top: 140px;
+	height: 195px;
+	background: transparent;
+	display: inline-block;
+	left: 5%;
+	width: 90%;
+	z-index: 2;
+}
+.opencps-theme.home_bg .portlet-boundary_19_WAR_opencpsportlet_ .portlet-body > h2 {
+	position: absolute;
+	top: 0px;
+	/* left: 50%;
+	transform: translateX(-50%); */
+	font-size: 42px;
+	text-shadow: 2px 2px 10px #000;
+	font-family: 'Roboto-Black';
+	font-weight: normal;
+	color: white;
+	width: 700px;
+}
+.opencps-theme.home_bg .portlet-boundary_19_WAR_opencpsportlet_ .portlet-body > p {
+	position: absolute;
+	top: 70px;
+	/* left: 50%;
+	transform: translateX(-50%); */
+	font-size: 21px;
+	text-shadow: 2px 2px 10px #000;
+	color: white;
+	width: 700px;
+}
+.opencps-theme .home-search {
+	position: absolute;
+	height: 100px;
+	width:700px;
+	top: 105px;
+	/* left: 50%;
+	transform: translateX(-50%); */
+}
+.opencps-theme .home-search .nav.nav-tabs {
+	position: absolute;
+	top: 65px;
+}
+.opencps-theme .home-search .navbar.custom-toolbar {
+	position: absolute;
+	top:0;
+}
+.opencps-theme .home-search .nav.nav-tabs {
+	border-bottom: 0;
+}
+.opencps-theme .home-search .nav.nav-tabs li a {
+	background: #edebec;
+	padding: 3px 6px;
+	line-height: normal;
+	border-radius: 4px;
+	font-weight: normal;
+	font-size: 12px;
+	border: 0;
+}
+.opencps-theme .home-search .nav.nav-tabs li.active a {
+	background-color: rgba(0,0,0,0.4) !important;
+	border: 0;
+	color: white !important;
+}
+.opencps-theme .home-search .navbar-inner {
+	background: transparent none;
+	box-shadow: none;
+	border: 0;
+	padding: 0;
+}
+.opencps-theme .home-search .navbar-inner label {
+	display: none;
+}
+.opencps-theme .home-bb-search.input-append > button, 
+.opencps-theme .home-bb-search.input-append > button:hover, 
+.opencps-theme .home-bb-search.input-append > button:focus {
+	border-left: 0;
+    box-shadow: none;
+    text-indent: -9999px;
+    width: 90px;
+    height: 60px;
+    border-radius: 0 20px 20px 0!important;
+    position: relative;
+    background: none #0090ff;
+    border-color: #0090ff;
+    margin-bottom: 0 !important;
+}
+.opencps-theme .home-bb-search.input-append > button.btn {
+	text-indent: -9999px;
+	position: relative;
+	height: 60px;
+	background: none #0074cd;
+	box-shadow: none;
+	border-radius: 0 20px 20px 0 !important;
+	text-shadow: none;
+	width: 90px;
+	color: white;
+	border: 1px solid #0074cd;
+	margin-left: 30px;
+}
+.opencps-theme .page-search .input-append > button.btn {
+	height: 40px !important;
+	right: 30px;
+}
+.opencps-theme .input-append > button, 
+.opencps-theme .input-append > button:hover, 
+.opencps-theme .input-append > button:focus {
+	border-left: 0;
+    box-shadow: none;
+    text-indent: 0;
+    width: 90px;
+    height: 40px;
+    border-radius: 0 20px 20px 0!important;
+    position: relative;
+    background: none #0090ff;
+    border-color: #0090ff;
+    margin-bottom: 0 !important;
+    right: 30px;
+}
+.opencps-theme .input-append > button.btn {
+	text-indent: 0;
+	position: relative;
+	height: 40px;
+	background: none #0074cd;
+	box-shadow: none;
+	border-radius: 0 20px 20px 0 !important;
+	text-shadow: none;
+	width: 90px;
+	color: white;
+	border: 1px solid #0074cd;
+	margin-left: -3px;
+	right: 30px;
+}
+
+.opencps-theme .home-search .input-append > button.btn:before {
+	content: "\f002";
+	font-family: FontAwesome;
+	position: absolute;
+	color: white;
+	top: 50%;
+	left: 50%;
+	text-indent: 0;
+	transform: translate(-50%, -50%);
+	font-size: 26px;
+}
+
+.homegtvt_layout {width: 100%; height: 100%}
+.homegtvt_left_col {width: 80%; height: 100%; float: left}
+.homegtvt_left_col .homegtvt_top {width: 100%; height: 50%; float: left}
+.homegtvt_left_col .homegtvt_bottom {width: 100%; height: 50%; float: left; position: relative; bottom: 0;z-index: 1; top: 100px; left: 30px;}
+.homegtvt_left_col .homegtvt_bottom .homegtvt_left {width: 80%; height: 100%; float: left}
+.homegtvt_left_col .homegtvt_bottom .homegtvt_right {width: 20%; height: 100%; float: left}
+.homegtvt_right_col {width: 20%; height: 100%; float: left;z-index: 1; position: relative; top: 60px;}
+.left-col {
+    float: left;
+    width: calc(100% - 340px);
+}
+.right-col {
+    float: right;
+    margin: 80px 25px 0 0;
+}
+
+/*----- Contact -----*/
+.contact-box {
+    font-size: 18px;
+    font-family: 'Roboto-Bold';
+    color: white;
+    width: 315px;
+    margin-bottom: 25px;
+}
+.contact-box .title {
+    width: 299px;
+    height: 24px;
+    background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/contact_title.png) center center no-repeat;
+    margin-bottom: 10px;
+}
+.contact-box .phone i {
+    margin: 0 16px 0 15px;
+}
+.contact-box .email i {
+    margin: 0 15px;
+}
+
+/*----- VBPL -----*/
+.vbpl-box {
+    font-size: 16px;
+    font-family: 'Roboto-Bold';
+    width: 315px;
+    border-radius: 5px;
+    background-color: #0074cd;
+    margin-bottom: 25px;
+    color: white;
+}
+.vbpl-box .title {
+    line-height: 70px;
+    background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/icon_vbpl.png) 25px center no-repeat;
+    padding-left: 55px;
+    position: relative;    
+    text-transform: uppercase;
+}
+.vbpl-box .title:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 3px;
+    background-color: #83bbe7;
+    bottom: 15px;
+    left: 27px;
+}
+.vbpl-box .carousel {
+    padding: 0 25px 40px;
+    margin: 0;
+}
+.vbpl-box .carousel-indicators {
+    bottom: 15px;
+    left: 39px;
+    top: auto;
+    right: auto;
+}
+.vbpl-box .carousel-control {
+    border: 0;
+    background: transparent;
+    font-size: 22px;
+    opacity: 1;
+    width: auto;
+    height: auto;
+    line-height: 22px;
+    top: auto;
+    bottom: 10px;
+}
+.vbpl-box .carousel-control.left {
+    left: 25px;
+}
+.vbpl-box .carousel-control.right {
+    right: auto;
+    left: 95px;
+}
+.vbpl-box .carousel p {
+    font-size: 14px;
+}
+.vbpl-box .carousel span {
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+/*----- Hoi dap -----*/
+.hoidap-box {
+    font-size: 16px;
+    font-family: 'Roboto-Bold';
+    width: 285px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #0074cd;
+    height: 70px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+.hoidap-box a {
+    line-height: 70px;
+    color: white !important;
+    background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/icon_qa.png) 0 center no-repeat;
+    padding-left: 25px;
+    position: relative;
+}
+.hoidap-box a:before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 3px;
+    background-color: #83bbe7;
+    bottom: -10px;
+    left: -3px;
+}
+
+/*----- HDSD -----*/
+.hdsd-box {
+    border-radius: 5px; 
+    background-color: white;
+    width: 315px;
+}
+.hdsd-box .title {
+    font-size: 16px;
+    font-family: 'Roboto-Bold';
+    width: 315px;
+    text-transform: uppercase;
+    height: 66px;
+    padding-left: 50px;
+    line-height: 65px;
+    color: #0074cd;
+    border-bottom: 1px solid #e1e1e1;
+    background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/icon_huongdansudung.png) 30px center no-repeat;
+}
+.hdsd-box ul {
+    margin: 0;
+    list-style: none;
+}
+.hdsd-box ul li {
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 15px;
+    font-family: 'Roboto-Medium';
+    padding: 15px 20px;
+}
+.hdsd-box ul li:last-child {
+    border-bottom: 0;
+}
+.hdsd-box ul li a {
+    color: #292929 !important;
+}
+.hdsd-box ul li a:hover {
+    color: #0074cd !important;
+}
+.hdsd-box ul li i {
+    margin-right: 10px;
+}
+
+
+/*----- Links -----*/
+.links-box {
+    position: relative;
+    width: 145px;
+    left: 50px;
+    top: 100px;
+}
+.links-box div:hover > a:hover {
+    transform: rolate(405deg) !important;
+    transition: all 0.3s ease;
+	width: 110px;
+}
+.links-box > div a:hover:after{
+background-color: transparent !important;
+}
+.links-box > div {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    position: absolute;    
+    transform: rotate(45deg) translateX(-50%);
+}
+.links-box > div a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-45deg);
+    position: relative;
+}
+.links-box > div a:after {
+    content: "";
+    transform: rotate(-45deg);
+    width: 70%;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 75px;
+    right: -13px;
+}
+.links-box .duongbo {
+    top: 0;
+    left: 50%;
+}
+.links-box .duongbo a {
+    background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/duongbo.png) center center no-repeat;
+}
+.links-box .duongthuy {
+    top: 55px;
+    left: 10%;
+}
+.links-box .duongthuy a {
+    background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/duongthuy.png) center center no-repeat;
+}
+.links-box .duongkhong {
+    top: 110px;
+    left: 50%;
+}
+.links-box .duongkhong a {
+    background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/duongkhong.png) center center no-repeat;
+}
+.links-box .duongsat {
+    top: 55px;
+    left: 90%;
+}
+.links-box .duongsat a {
+    background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/duongsat.png) center center no-repeat;
+}
+.links-box .duongthuynoidia {
+    top: 165px;
+    left: 10%;
+}
+.links-box .duongthuynoidia a {
+    background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/duongthuynoidia.png) center center no-repeat;
+}
+.links-box .cacvukhac {
+    top: 220px;
+    left: 50%;
+}
+.links-box .cacvukhac a {
+    background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/cacvukhac.png) center center no-repeat;
+}
+.links-box .dangkiem {
+    top: 165px;
+    left: 90%;
+}
+.links-box .dangkiem a {
+    background: url(/opencps-ux-theme/css/../images/schemes/pointgtvt/frame_1/dangkiem.png) center center no-repeat;
+}
+.opencps-theme footer > div > ul li a{
+  color: #292929;
+}

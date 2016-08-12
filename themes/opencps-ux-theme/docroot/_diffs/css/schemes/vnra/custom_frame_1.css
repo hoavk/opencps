@@ -1,0 +1,119 @@
+html, body{
+	height: 100% !important;
+}
+body.opencps-theme {font-family: 'Roboto-Regular'; font-size: 13px}
+
+
+
+.dockbar-messages .header {height: auto !important}
+
+
+.opencps-theme.home_bg #wrapper {
+    content: "";
+    width: 100%;
+    height: calc(100%);
+    background: transparent url("/opencps-ux-theme/css/../images/schemes/vnra/frame_1/bg_home.jpg") no-repeat scroll center center / cover;
+}
+
+/*---------- Footer ----------*/
+footer {
+	height: 111px;
+	background: url(/opencps-ux-theme/css/../images/schemes/vnra/frame_1/bg_footer.jpg) 0 center repeat;
+	padding-top: 10px;
+	border-top: 1px solid #f58220;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+footer .footer {
+	margin: auto;
+	position: relative;
+	z-index: 2;
+	display: flex;
+	width: 1170px;
+	margin: auto;
+	height: 100px;
+}
+footer .footer .logo {
+    background: url(/opencps-ux-theme/css/../images/schemes/vnra/frame_1/logo_footer.png) 0 -10px no-repeat;
+    background-size: 205px 121px;
+    width: 205px;
+}
+footer .footer > div {
+	color: #292929;
+}
+footer .footer > div:last-child {
+	position: absolute;
+	bottom: 0;
+	left: 1;
+	top: 0;
+}
+footer .footer div > p {
+	margin-bottom: 4px;
+	line-height: normal;
+}
+footer .footer div > p.copyright:before {
+	content: "2016 © Cục Đường sắt Việt Nam";
+	font-family: 'Roboto-Bold';
+}
+footer .footer div > p.address:before {
+	content: "Địa chỉ : 80 Trần Hưng Đạo - Hoàn Kiếm - Hà Nội.";
+}
+footer .footer div > p.phone:before {
+	content: "Điện thoại: Máy trực trong giờ (04) 3942 7545";
+}
+footer .footer div > p.fax:before {
+	content: "Fax: (04) 3942 7545.";
+}
+footer .footer div > p.email:before {
+	content: "Email: cucduongsat@mt.gov.vn";
+}
+footer .footer div > p#ppl_online:before {
+	content: "Số người đang truy cập:";
+}
+footer .footer div > p#total_access:before {
+	content: "Tổng số người truy cập:";
+}
+
+
+/*---------- Main ----------*/
+.opencps-theme article {padding: 25px 0 !important}
+
+.opencps-theme #wrapper {background: none transparent; padding: 0}
+
+.head {}
+.content {clear: both}
+
+/*--- Home ---*/
+.opencps-theme .home_bg {
+	position: relative !important;
+	width: auto;
+	min-height: 675px;
+	height: calc(100% - 157px);
+}
+.home_bg .container #content{
+  min-height: 450px;
+  height: 100%;
+}
+.home_bg footer{
+  position: relative;
+}
+.home_bg #layout-column_column-1{
+	float: none;
+}
+.advance-signin {
+    display: none;
+}
+.opencps-theme #wrapper #main-content {
+	padding: 0;
+	width: 100%;
+	height: 100%;
+/* 	position: fixed; */
+}
+
+.opencps-theme .opencps_home > div:last-child {
+	padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: relative;
+    height: 100%;
+}

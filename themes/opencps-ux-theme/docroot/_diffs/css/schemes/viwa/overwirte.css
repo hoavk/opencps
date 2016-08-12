@@ -1,0 +1,402 @@
+
+.file_manage_title {
+    background: url(/opencps-ux-theme/css/../images/schemes/viwa/frame_1/icon_capnhat.png) 0 center no-repeat;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto-Bold';
+    font-size: 16px;
+    line-height: 60px;
+    margin-bottom: 0 !important;
+    float: left;
+}
+.payment-ld .lfr-search-container {
+    margin-top: -1px;
+}
+
+.opencps-theme.ux .opencps-searchcontainer-wrapper {
+	background-color:#fff;
+	border:1px solid #e1e1e1;
+	border-radius:3px;
+	padding:10px 0
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table {
+	border-top:0;
+	border-right:0
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table thead {
+	display:none
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr.opencps-searchcontainer-row td {
+	background:none #fff;
+	border:0;
+	border-top:1px solid #e1e1e1;
+	position:relative
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr.opencps-searchcontainer-row td:after {
+	content:"";
+	border-right:1px solid #e1e1e1;
+	width:1px;
+	height:calc(100% - 30px);
+	position:absolute;
+	right:0;
+	top:15px
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr.opencps-searchcontainer-row td:last-child:after {
+	border-right:0
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr.opencps-searchcontainer-row td .row-fluid {
+	min-width:300px
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper .searchcontainer-content table tr.opencps-searchcontainer-row td .bold-label {
+	font-weight:bold;
+	white-space:nowrap
+}
+.opencps-theme {
+	height:initial;
+	background-color:#f5f5f5
+}
+#main-content {
+	margin:0!important
+}
+#hrefFm {
+	margin:0!important
+}
+.opencps-theme .fake_textarea {
+	height:90px;
+	border:1px solid #acacac;
+	border-radius:5px;
+	background-color:white;
+	padding:0 10px;
+	overflow-y:auto
+}
+.aui .dockbar.navbar-static-top .collapse .nav-account-controls {
+	float:right
+}
+.opencps-theme.ux body {
+	font-family:roboto
+}
+.opencps-theme.ux .taglib-page-iterator {
+	padding:0 20px
+}
+.opencps-theme.ux .taglib-page-iterator .btn {
+	background-color:#fff;
+	border:1px solid #ddd
+}
+.opencps-theme.ux .search-container-action {
+	border-radius:20px;
+	color:white;
+	display:block;
+	margin:5px 0;
+	height:20px;
+	position:relative;
+	text-indent:20px;
+	width:110px
+}
+.opencps-theme.ux .search-container-action a {
+	color:white;
+	display:block;
+	height:30px;
+	width:110px
+}
+.opencps-theme.ux .search-container-action img {
+	display:none
+}
+.opencps-theme.ux .search-container-action.fa {
+	padding-top:8px
+}
+.opencps-theme.ux .search-container-action.fa.view {
+	background-color:#ebebeb;
+	vertical-align:middle
+}
+.opencps-theme.ux .search-container-action.fa.edit {
+	background-color:#50ea50;
+	vertical-align:middle
+}
+.opencps-theme.ux .search-container-action.fa.delete {
+	background-color:#e61f06;
+	vertical-align:middle
+}
+.opencps-theme.ux .search-container-action.fa.forward {
+	background-color:#0090ff;
+	vertical-align:middle
+}
+.opencps-theme.ux .search-container-action>a>.taglib-text.hide-accessible {
+	clip:auto!important;
+	position:absolute!important;
+	top:8px
+}
+.opencps-theme.ux .taglib-form-navigator .tabbable-content {
+	display:flex
+}
+.opencps-theme.ux .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list {
+	background:transparent none repeat scroll 0 0;
+	border:medium none
+}
+.opencps-theme.ux .taglib-form-navigator .tabbable-content .form-navigator-content {
+	border-left:1px solid #ddd;
+	flex-grow:1
+}
+.opencps-theme.ux .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list .form-navigator-topper {
+	display:none
+}
+.opencps-theme.ux .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list .nav-header {
+	display:none
+}
+.opencps-theme.ux .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list>li>a {
+	padding:10px 15px
+}
+
+.fa-search::before, .opencps-theme.ux .search-container-action.fa.view::before {
+    content: "\f002";
+}
+
+.fa-edit::before, .fa-pencil-square-o::before, .opencps-theme.ux .search-container-action.fa.edit::before {
+    content: "\f044";
+}
+
+.fa-send::before, .fa-paper-plane::before, .opencps-theme.ux .search-container-action.fa.forward::before {
+    content: "\f1d8";
+}
+
+.fa-trash-o::before, .opencps-theme.ux .search-container-action.fa.delete::before {
+    content: "\f014";
+}
+.opencps-theme.ux .search-container-action.fa.undo {
+    background-color: #23b58d;
+    vertical-align: middle;
+}
+
+.icon-rotate-left::before, .icon-undo::before, .opencps-theme.ux .search-container-action.fa.undo::before {
+    content: "\f0e2";
+}
+.opencps-theme.ux .search-container-action.fa.edit {
+    background-color: #0090ff;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.opencps-theme.ux .search-container-action.fa.view {
+    background-color: #0090ff;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.opencps-theme.ux .search-container-action.fa.forward {
+    background-color: #0090ff;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.opencps-theme.ux .opencps-searchcontainer-wrapper{
+	background-color: white;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.opencps-theme.ux select:only-child {
+	background: white
+		url(/opencps-ux-theme/css/../images/custom/select_arrow_gray.png) no-repeat
+		scroll 92% center;
+}
+a.taglib-icon:focus .taglib-text, a.taglib-icon:hover .taglib-text {
+    text-decoration: none !important;
+}
+.portlet-boundary_13_WAR_opencpsportlet_ .searchcontainer-content td > div i.fa{
+  float: right;
+}
+.portlet-boundary_10_WAR_opencpsportlet_ .form-search label,
+.portlet-boundary_26_WAR_opencpsportlet_ .form-search label{
+  position: absolute;
+padding: 10px 0px 0px 10px;
+}
+.opencps-theme.ux select{
+	background: white
+		url(/opencps-ux-theme/css/../images/custom/select_arrow_gray.png) no-repeat
+		scroll 95% center !important;
+  z-index: 9999;
+}
+.portlet-boundary_10_WAR_opencpsportlet_ .input-append >button:before{
+  content: "" !important;
+  display: none !important;
+}
+.portlet-boundary_10_WAR_opencpsportlet_ .input-append >button i{
+  right: 25px;
+  position: relative
+}
+.ocps-history-process-bound-navigator .declaration-online{
+    background: url(/opencps-ux-theme/css/../images/custom/icon_dangnhap_hover.png) 0 center no-repeat;
+}
+.ocps-history-process-bound-navigator .upload-dossier-file{
+	background: url(/opencps-ux-theme/css/../images/custom/icon_tailen.png) 0 center no-repeat;
+}
+.ocps-history-process-bound-navigator .declaration-online {
+    background: url(/opencps-ux-theme/css/../images/custom/icon_dangnhap_hover.png) 0 center no-repeat;
+}
+.opencps-theme .portlet-boundary_26_WAR_opencpsportlet_ .table-columns{
+	display: none;
+}
+.opencps-theme .portlet-boundary_26_WAR_opencpsportlet_ .lfr-search-container {
+    margin-top: 0;
+    overflow: auto;
+    background-color: white;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px 0px 10px 0px;
+}
+.portlet-boundary_26_WAR_opencpsportlet_ .searchcontainer-content .table-bordered{
+	border: 0px solid #dddddd;
+}
+.portlet-boundary_13_WAR_opencpsportlet_ .searchcontainer-content{
+	padding: 5px !important;
+}
+#_13_WAR_opencpsportlet_serviceBeansSearchContainerSearchContainer table,
+#_13_WAR_opencpsportlet_serviceBeansSearchContainer_1SearchContainer table{
+  background-color: white !important;
+border-radius: 8px !important;
+box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2) !important;
+}
+#_13_WAR_opencpsportlet_serviceBeansSearchContainerSearchContainer table th:first-child,
+#_13_WAR_opencpsportlet_serviceBeansSearchContainer_1SearchContainer table th:first-child{
+border: 0px solid #fff !important;
+}
+#_13_WAR_opencpsportlet_serviceBeansSearchContainerSearchContainer table td,
+#_13_WAR_opencpsportlet_serviceBeansSearchContainer_1SearchContainer table td{
+border-left: 1px solid #dddddd !important;
+}
+#_13_WAR_opencpsportlet_serviceBeansSearchContainerSearchContainer table td:first-child,
+#_13_WAR_opencpsportlet_serviceBeansSearchContainer_1SearchContainer table td:first-child{
+border-left: 0px solid #fff !important;
+}
+#_13_WAR_opencpsportlet_serviceBeansSearchContainerSearchContainer td > button,
+#_13_WAR_opencpsportlet_serviceBeansSearchContainer_1SearchContainer td > button{
+    width: 80px !important;
+    height: 30px !important;
+    border: 0px solid rgb(225, 225, 225) !important;
+    color: white !important !important;
+    border-radius: 20px !important;
+    background: rgb(0, 144, 255) none repeat scroll 0% 0% !important;
+    padding: 5px 25px !important;
+    display: block !important;
+    text-align: center !important;
+}
+.done{
+  color: #37b400;
+}
+.new{
+  color: #af8400;
+}
+.processing{
+  color: #23b58d;
+}
+.opencps-theme.home_bg article {
+    width: 100%;
+}
+.opencps-theme.ux.home_bg .portlet-borderless-container {
+  background-color: transparent;
+}
+.opencps-theme.ux.home_bg .advance-signin{
+	display: none !important;
+}
+.opencps-theme.ux.home_bg .login .bg_title {
+    width: 484px;
+    height: 85px;
+    background: url(/opencps-ux-theme/css/../images/schemes/viwa/frame_1/bg_title_login.png) 0 0 no-repeat;
+    margin-bottom: 10px;
+}
+.opencps-theme.ux.home_bg .login{
+	width: 1170px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.opencps-theme.ux.home_bg .login > p {
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 18px;
+}
+.opencps-theme.ux.home_bg .login .login_box {
+    width: 280px;
+}
+.opencps-theme.ux.home_bg .line-2 {
+    padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+	bottom: 0px;
+}
+.opencps-theme.ux.home_bg .container {
+    margin-right: auto;
+    margin-left: auto;
+    *zoom: 1;
+}
+
+.opencps-theme.ux.home_bg .line-2 .left {
+    background-color: white;
+    width: 54%;
+    display: inline-block;
+    transform: skew(-30deg, 0deg);
+    height: 160px;
+    position: relative;
+}
+.opencps-theme.ux.home_bg .line-2 .right {
+    background-color: white;
+    width: 43%;
+    display: inline-block;
+    transform: skew(-30deg, 0deg);
+    height: 160px;
+    position: relative;
+    float: right;
+    margin: 10px 10px 0 0;
+}
+.opencps-theme.ux.home_bg .container::before, .container::after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.opencps-theme.ux.home_bg .container::after {
+
+    clear: both;
+
+}
+.opencps-theme.ux.home_bg .line-2 .left::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    left: -46px;
+    transform: skew(30deg, 0deg);
+}
+.opencps-theme.ux.home_bg .line-2 .left .portlet {
+    transform: skew(30deg, 0deg);
+    position: absolute;
+    top: 10px;
+    left: -26px;
+    width: 90%;
+}
+.opencps-theme.ux.home_bg .line-2 .right::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    right: -46px;
+    transform: skew(30deg, 0deg);
+}
+.opencps-theme.ux.home_bg .line-2 .right .portlet {
+    transform: skew(30deg, 0deg);
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width: 90%;
+}
+.opencps-theme.ux .taglib-header{
+	background-color: #fff;
+	margin-bottom: 0;
+	padding-bottom: 0em;
+}
+.table.payment tr td a.button{
+	height: 20px;
+}
