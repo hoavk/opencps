@@ -4,7 +4,6 @@
 #set ($publicLayouts = $layoutService.getLayouts($layout.getGroupId(), false, 0))
 
 	
-<nav class="$nav_css_class top-menu" id="navigation" role="navigation">
 
 	#if (!$is_signed_in)
 		<ul aria-label="#language ("site-pages")" role="menubar">
@@ -25,7 +24,7 @@
 				#if (!$nav_item.isHidden())
 				
 					<li class="$nav_item_css_class ocps-nav" id="layout_$nav_item.getLayoutId()" $nav_item_attr_selected role="presentation">
-						<a aria-labelledby="layout_$nav_item.getLayoutId()" href="/web/guest$nav_item.getFriendlyURL()" $nav_item_attr_has_popup $nav_item.getTarget() role="menuitem"><span>$nav_item.getName()</span></a>
+						<a aria-labelledby="layout_$nav_item.getLayoutId()" href="/web/guest$nav_item.getFriendlyURL()" $nav_item_attr_has_popup $nav_item.getTarget() role="menuitem"><span>$nav_item.getName($locale)</span></a>
 		
 					</li>
 				#end
@@ -57,7 +56,7 @@
 				#if (!$nav_item.isHidden())
 				
 					<li class="$nav_item_css_class ocps-nav" id="layout_$nav_item.getLayoutId()" $nav_item_attr_selected role="presentation">
-						<a aria-labelledby="layout_$nav_item.getLayoutId()" href="/web/guest$nav_item.getFriendlyURL()" $nav_item_attr_has_popup $nav_item.getTarget() role="menuitem"><span>$nav_item.getName()</span></a>
+						<a aria-labelledby="layout_$nav_item.getLayoutId()" href="/web/guest$nav_item.getFriendlyURL()" $nav_item_attr_has_popup $nav_item.getTarget() role="menuitem"><span>$nav_item.getName($locale)</span></a>
 		
 					</li>
 				#end
@@ -65,4 +64,3 @@
 		</ul>
 		#end
 	#end
-</nav>

@@ -5,7 +5,7 @@
 }
 
 .opencps-theme.ux .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li.active > a > i.dossier_info{
-	background-image: url("../images/custom/icon_dossierinfo_white.png");
+	background-image: url("/opencps-ux-theme/css/../images/custom/icon_dossierinfo_white.png");
     height: 16px;
     margin-bottom: 1px;
     vertical-align: middle;
@@ -13,7 +13,7 @@
 }
 
 .opencps-theme.ux .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li > a > i.dossier_info{
-	background-image: url("../images/custom/icon_dossierinfo_blue.png");
+	background-image: url("/opencps-ux-theme/css/../images/custom/icon_dossierinfo_blue.png");
 	height: 16px;
     margin-bottom: 1px;
     vertical-align: middle;
@@ -21,7 +21,7 @@
 }
 
 /* .opencps-theme.ux .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li:hover > a > i.dossier_info{
-	background-image: url("../images/custom/icon_dossierinfo_white.png");
+	background-image: url("/opencps-ux-theme/css/../images/custom/icon_dossierinfo_white.png");
     height: 16px;
     margin-bottom: 1px;
     vertical-align: middle;
@@ -30,7 +30,7 @@
 
 
 .opencps-theme.ux .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li.active > a > i.dossier_part{
-	background-image: url("../images/custom/icon_dossierpart_white.png");
+	background-image: url("/opencps-ux-theme/css/../images/custom/icon_dossierpart_white.png");
     height: 16px;
     margin-bottom: 1px;
     vertical-align: middle;
@@ -38,7 +38,7 @@
 }
 
 .opencps-theme.ux .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li > a > i.dossier_part{
-	background-image: url("../images/custom/icon_dossierpart_blue.png");
+	background-image: url("/opencps-ux-theme/css/../images/custom/icon_dossierpart_blue.png");
 	height: 16px;
     margin-bottom: 1px;
     vertical-align: middle;
@@ -47,7 +47,7 @@
 
 
 .opencps-theme.ux .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li.active > a > i.result{
-	background-image: url("../images/custom/icon_dossierresult_white.png");
+	background-image: url("/opencps-ux-theme/css/../images/custom/icon_dossierresult_white.png");
     height: 16px;
     margin-bottom: 1px;
     vertical-align: middle;
@@ -55,7 +55,7 @@
 }
 
 .opencps-theme.ux .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li > a > i.result{
-	background-image: url("../images/custom/icon_dossierresult_blue.png");
+	background-image: url("/opencps-ux-theme/css/../images/custom/icon_dossierresult_blue.png");
 	height: 16px;
     margin-bottom: 1px;
     vertical-align: middle;
@@ -64,7 +64,7 @@
 
 
 .opencps-theme.ux .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li.active > a > i.history{
-	background-image: url("../images/custom/icon_dossierhistory_white.png");
+	background-image: url("/opencps-ux-theme/css/../images/custom/icon_dossierhistory_white.png");
     height: 16px;
     margin-bottom: 1px;
     vertical-align: middle;
@@ -72,7 +72,7 @@
 }
 
 .opencps-theme.ux .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li > a > i.history{
-	background-image: url("../images/custom/icon_dossierhistory_blue.png");
+	background-image: url("/opencps-ux-theme/css/../images/custom/icon_dossierhistory_blue.png");
 	height: 16px;
     margin-bottom: 1px;
     vertical-align: middle;
@@ -131,19 +131,19 @@
 }
 
 .opencps-theme.ux .opencps-form-navigator-container .opencps.dossiermgt.dossier-part-row .dossier-part-control .opencps.dossiermgt.part-file-ctr.declaration-online{
-	background: transparent url("../images/custom/icon_dynamic_form.png") no-repeat scroll left center;
+	background: transparent url("/opencps-ux-theme/css/../images/custom/icon_dynamic_form.png") no-repeat scroll left center;
 }
 
 .opencps-theme.ux .opencps-form-navigator-container .opencps.dossiermgt.dossier-part-row .dossier-part-control .opencps.dossiermgt.part-file-ctr.upload-dossier-file{
-	background: transparent url("../images/custom/icon_upload.png") no-repeat scroll left center;
+	background: transparent url("/opencps-ux-theme/css/../images/custom/icon_upload.png") no-repeat scroll left center;
 }
 
 .opencps-theme.ux .opencps-form-navigator-container .opencps.dossiermgt.dossier-part-row .dossier-part-control .opencps.dossiermgt.part-file-ctr.view-attachment{
-	background: transparent url("../images/custom/icon_view_attachment.png") no-repeat scroll left center;
+	background: transparent url("/opencps-ux-theme/css/../images/custom/icon_view_attachment.png") no-repeat scroll left center;
 }
 
 .opencps-theme.ux .opencps-form-navigator-container .opencps.dossiermgt.dossier-part-row .dossier-part-control .opencps.dossiermgt.part-file-ctr.remove-dossier-file{
-	background: transparent url("../images/custom/icon_remove_dossierfile.png") no-repeat scroll left center;
+	background: transparent url("/opencps-ux-theme/css/../images/custom/icon_remove_dossierfile.png") no-repeat scroll left center;
 	color: #555 !important;
     font-family: "Roboto-Medium";
     margin-left: 10px;
