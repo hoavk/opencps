@@ -245,27 +245,7 @@ padding: 10px 0px 0px 10px;
 .portlet-boundary_26_WAR_opencpsportlet_ .searchcontainer-content .table-bordered{
 	border: 0px solid #dddddd;
 }
-.portlet-boundary_13_WAR_opencpsportlet_ .searchcontainer-content{
-	padding: 5px !important;
-}
-#_13_WAR_opencpsportlet_serviceBeansSearchContainerSearchContainer table,
-#_13_WAR_opencpsportlet_serviceBeansSearchContainer_1SearchContainer table{
-  background-color: white !important;
-border-radius: 8px !important;
-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2) !important;
-}
-#_13_WAR_opencpsportlet_serviceBeansSearchContainerSearchContainer table th:first-child,
-#_13_WAR_opencpsportlet_serviceBeansSearchContainer_1SearchContainer table th:first-child{
-border: 0px solid #fff !important;
-}
-#_13_WAR_opencpsportlet_serviceBeansSearchContainerSearchContainer table td,
-#_13_WAR_opencpsportlet_serviceBeansSearchContainer_1SearchContainer table td{
-border-left: 1px solid #dddddd !important;
-}
-#_13_WAR_opencpsportlet_serviceBeansSearchContainerSearchContainer table td:first-child,
-#_13_WAR_opencpsportlet_serviceBeansSearchContainer_1SearchContainer table td:first-child{
-border-left: 0px solid #fff !important;
-}
+
 #_13_WAR_opencpsportlet_serviceBeansSearchContainerSearchContainer td > button,
 #_13_WAR_opencpsportlet_serviceBeansSearchContainer_1SearchContainer td > button{
     width: 80px !important;
@@ -399,4 +379,15 @@ border-left: 0px solid #fff !important;
 }
 .table.payment tr td a.button{
 	height: 20px;
+}
+.opencps-theme.ux .payment-ld .lfr-search-container .taglib-search-iterator-page-iterator-top .pagination >div.lfr-pagination-config{
+  margin-top: -55px;
+position: absolute;
+right: 0px;
+margin-right: 30px;
+}
+.opencps-theme.ux .payment-ld .table-bordered{
+  border: 0px solid #dddddd !important;
+border-top: 1px solid #dddddd !important;
+border-left: 0px solid #dddddd !important;
 }

@@ -9,3 +9,12 @@ This file allows you to override and define new Velocity variables.
 #set ($theme_style = $theme.getSetting("theme-style")+".css")
 
 #set ($theme_vm = $theme.getSetting("theme-style")+"_portal_normal.vm")
+
+#set ($userGroupLocalService = $serviceLocator.findService("com.liferay.portal.service.UserGroupLocalService"))
+
+#set ($userGroup = $userGroupLocalService.getUserGroup($user.getCompanyId(),"EMPLOYEES"))
+
+#if($userGroup)
+    #set ($userLocalService = $serviceLocator.findService("com.liferay.portal.service.UserLocalService"))
+    #set ($hasUserGroupRole = $userLocalService.hasUserGroupUser($userGroup.getUserGroupId(),$user.getUserId()))
+#end
