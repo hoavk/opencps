@@ -15,7 +15,7 @@
 @import url(input.css);
 @import url(nav_toolbar.css);
 @import url(searchcontainer.css);
-@import url(header.css);
+/* @import url(header.css); */
 @import url(nav_menu.css);
 
 @import url(portlets/portlet_popup.css);

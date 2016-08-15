@@ -1,5 +1,5 @@
 .opencps-theme.ux .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li.active > a > i.dossier_content{
-	background-image: url("../images/custom/icon_dossierpart_white.png");
+	background-image: url("/opencps-ux-theme/css/../images/custom/icon_dossierpart_white.png");
     height: 16px;
     margin-bottom: 1px;
     vertical-align: middle;
@@ -7,7 +7,7 @@
 }
 
 .opencps-theme.ux .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li > a > i.dossier_content{
-	background-image: url("../images/custom/icon_dossierpart_blue.png");
+	background-image: url("/opencps-ux-theme/css/../images/custom/icon_dossierpart_blue.png");
 	height: 16px;
     margin-bottom: 1px;
     vertical-align: middle;
@@ -15,7 +15,7 @@
 }
 
 .opencps-theme.ux .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li.active > a > i.process{
-	background-image: url("../images/custom/xuly_white.png");
+	background-image: url("/opencps-ux-theme/css/../images/custom/xuly_white.png");
     height: 16px;
     margin-bottom: 1px;
     vertical-align: middle;
@@ -23,7 +23,7 @@
 }
 
 .opencps-theme.ux .opencps-form-navigator-container .taglib-form-navigator .tabbable-content .form-navigator.nav.nav-list > li > a > i.process{
-	background-image: url("../images/custom/xuly.png");
+	background-image: url("/opencps-ux-theme/css/../images/custom/xuly.png");
 	height: 16px;
     margin-bottom: 1px;
     vertical-align: middle;
