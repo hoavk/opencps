@@ -7,9 +7,7 @@ build-common-plugins-inspector.xml
 build-common-plugins.xml
 build-common.xml
 build.properties
-build.khoavd.properties
-build.trungnt.properties
-build.dunglt.properties
+build.*.properties
 build.xml
 ci.properties
 common.bnd
@@ -23,7 +21,7 @@ hooks/build.xml
 hooks/create.bat
 hooks/create.sh
 hooks/opencps-hook/.gitignore
-hooks/opencps-hook/.project
+#hooks/opencps-hook/.project
 hooks/opencps-hook/build.xml
 hooks/opencps-hook/ivy.xml
 hooks/opencps-hook/ivy.xml.MD5
@@ -60,12 +58,34 @@ portlets/create.bat
 portlets/create.sh
 themes/
 
+.gitignore
+
 .project
-portlets/opencps-portlet/.project
-portlets/opencps-portlet/.classpath
-portlets/opencps-portlet/.settings/org.eclipse.wst.common.component
-portlets/opencps-portlet/.settings/org.eclipse.jdt.ui.prefs
-portlets/opencps-portlet/.tern-project
+/*/*/.project
+/*/*/.classpath
+/*/*/.tern-project
+/*/*/.settings
+
+
+/*/*/.web_bundle_build
+/*/*/bin
+/*/*/build
+/*/*/classes
+/*/*/coverage-reports
+/*/*/docroot/WEB-INF/classes
+/*/*/docroot/WEB-INF/lib/portal-compat-shared.jar
+/*/*/javadoc
+/*/*/temp
+/*/*/test-classes
+/*/*/test-coverage
+/*/*/test-results
+/*/*/tmp
+
+#portlets/opencps-portlet/.project
+#portlets/opencps-portlet/.classpath
+#portlets/opencps-portlet/.settings/org.eclipse.wst.common.component
+#portlets/opencps-portlet/.settings/org.eclipse.jdt.ui.prefs
+#portlets/opencps-portlet/.tern-project
 portlets/opencps-portlet/docroot/WEB-INF/.gitignore
 portlets/opencps-portlet/docroot/WEB-INF/classes/
 portlets/opencps-portlet/docroot/WEB-INF/service/
@@ -254,9 +274,6 @@ portlets/LiferayJSONWebservices-portlet.rar
 portlets/LiferayJSONWebservices-portlet/
 
 portlets/opencps-portlet/*.log
-build.binhth.properties
-build.trungdk.properties
-.gitignore
 
 portlets/opencps-portlet/docroot/WEB-INF/src/org/opencps/api/model/impl/ApiServiceBaseImpl.java
 portlets/opencps-portlet/docroot/WEB-INF/src/org/opencps/api/model/impl/ApiServiceCacheModel.java
