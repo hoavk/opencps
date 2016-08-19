@@ -1870,6 +1870,11 @@ public class DossierLocalServiceImpl extends DossierLocalServiceBaseImpl {
 				dossier.getUserId(), dossier.getGroupId(),
 				dossier.getCompanyId(), dossierId, fileGroupId, dossierStatus,
 				actor, requestCommand, actionInfo, messageInfo, level);
+			
+			System.out.println("===DOSSIER===" + dossier.getDossierId() 
+					+ "===" + dossier.getDossierStatus() 
+					+ "===" + dossier.getReceptionNo()
+					+ "===" + System.nanoTime());
 
 			dossierPersistence.update(dossier);
 
@@ -1952,6 +1957,11 @@ public class DossierLocalServiceImpl extends DossierLocalServiceBaseImpl {
 			dossier.getUserId(), dossier.getGroupId(), dossier.getCompanyId(),
 			dossierId, fileGroupId, dossierStatus, actor, requestCommand,
 			actionInfo, messageInfo, level);
+		
+		System.out.println("===DOSSIER===" + dossier.getDossierId() 
+				+ "===" + dossier.getDossierStatus() 
+				+ "===" + dossier.getReceptionNo()
+				+ "===" + System.nanoTime());
 
 		dossierPersistence.update(dossier);
 	}
