@@ -128,7 +128,7 @@ public class SignatureUtilOLD {
 
 			log.info("***************************signer: " + signer + "*******filePath:" + filePath);
 
-			// tinh kich thuoc cua anh
+			/*// tinh kich thuoc cua anh
 
 			int signatureImageWidth = (bufferedImage != null && bufferedImage.getWidth() > 0) ? bufferedImage.getWidth() : 80;
 
@@ -148,7 +148,25 @@ public class SignatureUtilOLD {
 			log.info("***************************llx: " + llx + "*******urx:" + urx);
 			log.info("***************************lly: " + lly + "*******ury:" + ury);
 			signer.setSignatureAppearance(PdfSignatureAppearance.RenderingMode.GRAPHIC);   
-			inHash = signer.computeHash(new Rectangle(llx, (lly/2 - 10), urx, ury), 1);
+			inHash = signer.computeHash(new Rectangle(llx, (lly/2 - 10), urx, ury), 1);*/
+			
+			// tinh kich thuoc cua anh
+			
+			int signatureImageWidth = (bufferedImage != null && bufferedImage.getWidth() > 0) ? bufferedImage.getWidth() : 80;
+			
+			int signatureImageHeight = (bufferedImage != null && bufferedImage.getHeight() > 0) ? bufferedImage.getHeight() : 80;
+			float llx = textLocation.getAnchorX();
+			
+			float urx = llx + signatureImageWidth / 3;
+			
+			float lly = textLocation.getPageURY() - textLocation.getAnchorY() - signatureImageHeight / 3;
+			
+			float ury = lly + signatureImageHeight / 3;
+			
+			// inHash = signer.computeHash(new Rectangle(llx + 65, lly - 55, urx + 114, ury-20), 1);
+			
+			signer.setSignatureAppearance(PdfSignatureAppearance.RenderingMode.GRAPHIC);
+			inHash = signer.computeHash(new Rectangle(llx, lly, urx, ury), 1);
 
 //			filePath2 = "/opt/liferay/jboss-7.0.2/standalone/deployments/TichHopGiaoThong-portlet.war/export/30798683514999_Shifting_Order.pdf";
 
