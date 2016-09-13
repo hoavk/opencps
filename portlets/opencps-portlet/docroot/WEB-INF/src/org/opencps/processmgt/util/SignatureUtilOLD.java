@@ -133,6 +133,7 @@ public class SignatureUtilOLD {
 			int signatureImageWidth = (bufferedImage != null && bufferedImage.getWidth() > 0) ? bufferedImage.getWidth() : 80;
 
 			int signatureImageHeight = (bufferedImage != null && bufferedImage.getHeight() > 0) ? bufferedImage.getHeight() : 80;
+			
 			float llx = textLocation.getAnchorX();
 
 			float urx = llx + signatureImageWidth / 3;

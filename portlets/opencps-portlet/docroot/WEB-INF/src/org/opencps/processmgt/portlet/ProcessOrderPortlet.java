@@ -2123,6 +2123,7 @@ public class ProcessOrderPortlet extends MVCPortlet {
 			long indexSize = ParamUtil.getLong(resourceRequest, "indexSize");
 			_log.info("*******************************************"+fileId);
 			FileEntry fileEntry = DLFileEntryUtil.getFileEntry(fileId);
+			
 			SignatureUtilOLD.genComputerHashByNoiDungHoSo(resourceRequest, resourceResponse, fileEntry, ks, dossierFileId, dossierPartId, index, indexSize);
 					
 		} catch (Exception e) {

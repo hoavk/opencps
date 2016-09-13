@@ -111,7 +111,7 @@
 			workflowOutputs = WorkflowOutputLocalServiceUtil.getProcessByE_S_ID_PB(processWorkflowId, true);
 		}catch(Exception e){};
 	}
-	
+	System.out.println(workflowOutputs);
 	boolean esign = false;
 	
 	long assigerToUserId = ProcessMgtUtil.getAssignUser(processWorkflowId);
@@ -122,6 +122,7 @@
 	
 	for (WorkflowOutput workflowOutput : workflowOutputs) {
 		DossierFile dossierFile2 = DossierFileLocalServiceUtil.getDossierFileInUse(dossierId, workflowOutput.getDossierPartId());
+		
 		if(Validator.isNotNull(dossierFile2)){
 			listFileToSigner.add(dossierFile2.getFileEntryId()+"");
 			listDossierPartToSigner.add(workflowOutput.getDossierPartId()+"");
