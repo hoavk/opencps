@@ -111,7 +111,7 @@
 			workflowOutputs = WorkflowOutputLocalServiceUtil.getProcessByE_S_ID_PB(processWorkflowId, true);
 		}catch(Exception e){};
 	}
-	
+
 	boolean esign = false;
 	
 	long assigerToUserId = ProcessMgtUtil.getAssignUser(processWorkflowId);
@@ -122,6 +122,7 @@
 	
 	for (WorkflowOutput workflowOutput : workflowOutputs) {
 		DossierFile dossierFile2 = DossierFileLocalServiceUtil.getDossierFileInUse(dossierId, workflowOutput.getDossierPartId());
+		
 		if(Validator.isNotNull(dossierFile2)){
 			listFileToSigner.add(dossierFile2.getFileEntryId()+"");
 			listDossierPartToSigner.add(workflowOutput.getDossierPartId()+"");
@@ -369,7 +370,7 @@
 	</c:if>
 
 	<aui:button type="submit" value="submit" name="submit"/>
-	<c:if test="<%=esign || 1==1 %>">
+	<c:if test="<%=esign %>">
 <%-- 		<aui:button type="button" value="esign" name="esign"/> --%>
 		<aui:button type="button" value="esign" name="esign" onClick="getFileComputerHash(1);"/>
 	</c:if>
