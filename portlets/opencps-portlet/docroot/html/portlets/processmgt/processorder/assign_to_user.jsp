@@ -111,7 +111,7 @@
 			workflowOutputs = WorkflowOutputLocalServiceUtil.getProcessByE_S_ID_PB(processWorkflowId, true);
 		}catch(Exception e){};
 	}
-	System.out.println(workflowOutputs);
+
 	boolean esign = false;
 	
 	long assigerToUserId = ProcessMgtUtil.getAssignUser(processWorkflowId);
