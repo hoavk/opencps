@@ -370,7 +370,7 @@
 	</c:if>
 
 	<aui:button type="submit" value="submit" name="submit"/>
-	<c:if test="<%=esign || 1==1 %>">
+	<c:if test="<%=esign %>">
 <%-- 		<aui:button type="button" value="esign" name="esign"/> --%>
 		<aui:button type="button" value="esign" name="esign" onClick="getFileComputerHash(1);"/>
 	</c:if>
