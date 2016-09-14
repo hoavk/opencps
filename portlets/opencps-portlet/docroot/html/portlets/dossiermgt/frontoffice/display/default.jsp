@@ -1,5 +1,4 @@
 
-<%@page import="org.opencps.backend.util.DossierNoGenerator"%>
 <%
 /**
  * OpenCPS is the open source Core Public Services software
@@ -50,6 +49,8 @@
 <%@ include file="../../init.jsp"%>
 
 
+<liferay-util:include page='<%=templatePath + "toptabs.jsp" %>' servletContext="<%=application %>" />
+
 <liferay-ui:success  key="<%=MessageKeys.DEFAULT_SUCCESS_KEY %>" message="<%=MessageKeys.DEFAULT_SUCCESS_KEY %>"/>
 
 <liferay-ui:error 
@@ -77,7 +78,7 @@
 	iteratorURL.setParameter("mvcPath", templatePath + "frontofficedossierlist.jsp");
 	iteratorURL.setParameter("tabs1", DossierMgtUtil.TOP_TABS_DOSSIER);
 	iteratorURL.setParameter(DossierDisplayTerms.DOSSIER_STATUS, String.valueOf(dossierStatus));
-	iteratorURL.setParameter("serviceDomainId", String.valueOf(serviceDomainId));
+	iteratorURL.setParameter("serviceDomainId", (serviceDomainId > 0) ? String.valueOf(serviceDomainId):StringPool.BLANK);
 	
 	List<Dossier> dossiers =  new ArrayList<Dossier>();
 	
@@ -195,7 +196,7 @@
 								<div class="span7">
 									<%=
 										Validator.isNotNull(dossier.getCreateDate()) ? 
-										DateTimeUtil.convertDateToString(dossier.getCreateDate(), DateTimeUtil._VN_DATE_FORMAT) : 
+										DateTimeUtil.convertDateToString(dossier.getCreateDate(), DateTimeUtil._VN_DATE_TIME_FORMAT) : 
 										StringPool.DASH 
 									%>
 								</div>
@@ -421,7 +422,7 @@
 					
 					<div class='<%="span7 " + cssStatusColor %>'>
 						<%-- <%=PortletUtil.getDossierStatusLabel(dossier.getDossierStatus(), locale) %> --%>
-						<%= PortletUtil.getDossierStatusLabel(dossier.getDossierStatus(), locale) %>
+						<%= DictItemUtil.getDictItemName(dossier.getDossierStatus(), locale) %>
 					</div>
 				</div>
 			</liferay-util:buffer>

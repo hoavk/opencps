@@ -18,10 +18,19 @@
  */
 %>
 
+<%@ include file="../init.jsp"%>
 
 <%
-	totalCount = ProcessOrderLocalServiceUtil.countProcessOrderJustFinished(serviceInfoId, processStepId, themeDisplay.getUserId());
-	processOrders = ProcessOrderLocalServiceUtil.searchProcessOrderJustFinished(serviceInfoId, processStepId, themeDisplay.getUserId(), 
-		searchContainer.getStart(), searchContainer.getEnd(), 
-		ProcessOrderUtils.getProcessOrderByComparator(oderFieldJustFinish, oderByJustFinish));
+	String content = ParamUtil.getString(request, "content", "upload");
 %>
+
+<c:choose>
+	<c:when test='<%=content.equals("view-form") %>'>
+		<liferay-util:include page="/html/common/portlet/dossier_dynamic_form.jsp" servletContext="<%=application %>"/>
+	</c:when>
+	<c:when test='<%=content.equals("view-version") %>'>
+		<liferay-util:include  page="/html/portlets/dossiermgt/frontoffice/dossier_file_version.jsp" servletContext="<%=application %>"/>
+	</c:when>
+</c:choose>
+
+
