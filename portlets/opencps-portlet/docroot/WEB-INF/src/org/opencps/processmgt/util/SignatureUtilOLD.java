@@ -166,7 +166,7 @@ public class SignatureUtilOLD {
 			
 			// inHash = signer.computeHash(new Rectangle(llx + 65, lly - 55, urx + 114, ury-20), 1);
 			
-			signer.setSignatureAppearance(PdfSignatureAppearance.RenderingMode.GRAPHIC);
+			//signer.setSignatureAppearance(PdfSignatureAppearance.RenderingMode.GRAPHIC);
 			inHash = signer.computeHash(new Rectangle(llx, lly, urx, ury), 1);
 
 //			filePath2 = "/opt/liferay/jboss-7.0.2/standalone/deployments/TichHopGiaoThong-portlet.war/export/30798683514999_Shifting_Order.pdf";
