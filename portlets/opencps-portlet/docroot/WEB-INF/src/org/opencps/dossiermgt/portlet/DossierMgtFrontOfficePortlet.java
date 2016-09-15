@@ -2954,7 +2954,7 @@ public class DossierMgtFrontOfficePortlet extends MVCPortlet {
 					dossierId + " dossierFileId=" + dossierFileId +
 					" ownerId=" + ownerId + " account=" +
 					accountBean.getAccountType());
-				_hasPermission = false;
+				//_hasPermission = false;
 			}
 		}
 	}
@@ -3097,7 +3097,7 @@ public class DossierMgtFrontOfficePortlet extends MVCPortlet {
 
 	public void setHasPermission(boolean hasPermission) {
 
-		this._hasPermission = hasPermission;
+		this._hasPermission = true;//hasPermission;
 	}
 
 	private Log _log =
