@@ -719,6 +719,8 @@ public class DossierFileFinderImpl extends BasePersistenceImpl<DossierFile>
 				qPos
 					.add(ownerOrganizationId);
 			}
+			
+			System.out.println("+++++++++++++++++++++++sql+++++++++++++++++++++" + sql);
 
 			return (List<DossierFile>) QueryUtil
 				.list(q, getDialect(), start, end);

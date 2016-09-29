@@ -227,6 +227,11 @@
 					total = totalCount;
 					results = dossierFiles;
 					
+					System.out.println("-------------------------searchTerms.getKeywords()--------------" + searchTerms.getKeywords());
+					
+					System.out.println("----------------------------total----------------------------" + total);
+					System.out.println("---------------------------results---------------------------" + results);
+					
 					pageContext.setAttribute("results", results);
 					pageContext.setAttribute("total", total);				
 			%>
