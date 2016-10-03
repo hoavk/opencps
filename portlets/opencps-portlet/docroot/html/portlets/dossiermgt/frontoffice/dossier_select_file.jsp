@@ -227,7 +227,14 @@
 					total = totalCount;
 					results = dossierFiles;
 					
+					System.out.println("-------------------------scopeGroupId-------------------" + scopeGroupId);
+					System.out.println("-------------------------citizen.getMappingUserId()-------------------" + citizen.getMappingUserId());
+					System.out.println("-------------------------business.getMappingOrganizationId()----------------------" + business.getMappingOrganizationId());
 					System.out.println("-------------------------searchTerms.getKeywords()--------------" + searchTerms.getKeywords());
+					System.out.println("-------------------------templateFileNo----------------------" + templateFileNo);
+					System.out.println("-------------------------searchContainer.getStart()----------------------" + searchContainer.getStart());
+					System.out.println("-------------------------searchContainer.getEnd()----------------------" + searchContainer.getEnd());
+					System.out.println("-------------------------searchContainer.getOrderByComparator()----------------------" + searchContainer.getOrderByComparator());
 					
 					System.out.println("----------------------------total----------------------------" + total);
 					System.out.println("---------------------------results---------------------------" + results);
